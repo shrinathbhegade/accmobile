@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "651087861353",
+    "project_id": "app---anticoag-eval---ga4",
+    "storage_bucket": "app---anticoag-eval---ga4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651087861353:android:84a17bbaf65aaeee7af4f8",
+        "android_client_info": {
+          "package_name": "org.acc.AnticoagEvaluatorV2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651087861353-lb5jimp9cbt98fnvg7sjfmatvee9qjai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs5oFs-zqcSMmoOcKB1q47OGBc4FbGVOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651087861353-lb5jimp9cbt98fnvg7sjfmatvee9qjai.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "651087861353-gk6r2qebn76nf36jf12uih1rnl32jgrn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.acc.AnticoagEvaluator"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

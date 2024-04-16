@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="22" id="org.acc.AnticoagEvaluatorV2" ios-CFBundleVersion="22" version="4.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>AnticoagEvaluator</name>
+    <description>Use the updated AnticoagEvaluator to make informed decisions on initiation of antithrombotic therapy for patients with atrial fibrillation (AF) who do not have moderate to severe mitral stenosis or a mechanical heart valve. App updates include expanded advice from the 2019 Focused Update to the 2014 ACC/AHA/HRS Guideline for the Management of Patients with AF.</description>
+    <author email="accfdeveloper@acc.org" href="http://www.acc.org"> American College of Cardiology </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <preference name="SplashScreen" value="screen" />
+    <platform name="android">
+     <resource-file src="google-services.json" target="app/google-services.json" />
+        <allow-intent href="market:*" />
+        <preference name="AndroidXEnabled" value="true" />
+        <preference name="ShowSplashScreenSpinner" value="false" />
+        <preference name="StatusBarOverlaysWebView" value="false" />
+        <preference name="StatusBarBackgroundColor" value="#000000" />
+        <preference name="StatusBarStyle" value="lightcontent" />
+        
+    </platform>
+    <platform name="ios">
+     <resource-file src="GoogleService-Info.plist" />
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+        <feature name="StatusBar">
+            <param name="ios-package" onload="true" value="CDVStatusBar" />
+        </feature>
+        <preference name="StatusBarOverlaysWebView" value="false" />
+        <preference name="StatusBarBackgroundColor" value="#000000" />
+        <preference name="StatusBarStyle" value="lightcontent" />
+        <preference name="KeyboardDisplayRequiresUserAction" value="false" />
+        <preference name="BackupWebStorage" value="local" />
+        <preference name="ShowSplashScreenSpinner" value="false" />
+        <preference name="allowFileAccessFromFileURLs" value="true|false" />
+        <splash src="res/screen/ios/Default@2x~universal~anyany.png" />
+        <splash src="res/screen/ios/Default@2x~universal~comany.png" />
+        <splash src="res/screen/ios/Default@3x~universal~anycom.png" />
+        <splash src="res/screen/ios/Default@3x~universal~comany.png" />
+        
+    </platform>
+</widget>
+
+
